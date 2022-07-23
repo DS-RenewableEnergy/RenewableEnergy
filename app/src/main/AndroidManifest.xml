@@ -10,6 +10,54 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".SubActivity5For3"
+            android:exported="false" />
+        <activity
+            android:name=".SubActivity4For3"
+            android:exported="false" />
+        <activity
+            android:name=".SubActivity3For3"
+            android:exported="false" />
+        <activity
+            android:name=".SubActivity2For3"
+            android:exported="false" />
+        <activity
+            android:name=".SubActivity1For3"
+            android:exported="false" />
+        <activity
+            android:name=".SubActivity4For2"
+            android:exported="false" />
+        <activity
+            android:name=".SubActivity3For2"
+            android:exported="false" />
+        <activity
+            android:name=".SubActivity2For2"
+            android:exported="false" />
+        <activity
+            android:name=".SubActivity1For2"
+            android:exported="false" />
+        <activity
+            android:name=".SubActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".SubActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".SubActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".SubActivity1For4"
+            android:exported="false" />
+        <activity
+            android:name=".SubActivity2For4"
+            android:exported="false" />
+        <activity
+            android:name=".SubActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".SubActivity6"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
