@@ -20,5 +20,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, SubActivity3::class.java)
             startActivity(intent)
         }
+        //부기능 4로 이동(설비)
+        binding.btn4.setOnClickListener {
+            val intent = Intent(this, SubActivity4::class.java)
+            startActivity(intent)
+        }
     }
 }

@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="관리법 및 주의법"
+        android:text="일일 태양광 발전량 계산기"
         android:textColor="#43A842"
         android:textSize="25dp"
         android:padding="10dp"
