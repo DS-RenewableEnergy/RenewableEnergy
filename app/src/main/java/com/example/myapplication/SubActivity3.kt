@@ -13,7 +13,20 @@ class SubActivity3 : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btn1.setOnClickListener{
-            val intent = Intent(this, LightActivity::class.java)
+            val intent = Intent(this, SubActivity1For3::class.java)
+            startActivity(intent)
+        }
+        binding.btn2.setOnClickListener{
+            val intent = Intent(this, SubActivity2For3::class.java)
+            startActivity(intent)
+        }
+        binding.btn3.setOnClickListener{
+            val intent = Intent(this, SubActivity3For3::class.java)
+            startActivity(intent)
+
+        }
+        binding.btn4.setOnClickListener{
+            val intent = Intent(this, SubActivity4For3::class.java)
             startActivity(intent)
 
         }
