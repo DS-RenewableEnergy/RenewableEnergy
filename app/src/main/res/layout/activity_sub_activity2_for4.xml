@@ -17,7 +17,7 @@
             android:layout_marginStart="30dp"
             android:layout_marginTop="30dp"
             android:text="설비 업체와 연결"
-            android:textColor="#DA009688"
+            android:textColor="@color/green"
             android:textSize="30dp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
