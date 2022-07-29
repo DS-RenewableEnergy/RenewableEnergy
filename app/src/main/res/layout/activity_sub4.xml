@@ -55,9 +55,9 @@
                 android:textStyle="bold" />
 
             <Spinner
-                android:id="@+id/txt_question_energy_type"
+                android:id="@+id/spinner1"
                 android:layout_width="match_parent"
-                android:layout_height="36dp"
+                android:layout_height="48dp"
                 android:gravity="right"
                 tools:layout_editor_absoluteX="-56dp"
                 tools:layout_editor_absoluteY="384dp"></Spinner>
@@ -82,16 +82,16 @@
                 android:textStyle="bold" />
 
             <Spinner
-                android:id="@+id/txt_question_place"
+                android:id="@+id/spinner2"
                 android:layout_width="match_parent"
-                android:layout_height="36dp"
+                android:layout_height="48dp"
                 android:gravity="right"
                 tools:layout_editor_absoluteX="-56dp"
                 tools:layout_editor_absoluteY="384dp"></Spinner>
         </LinearLayout>
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btnSearch"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="100dp"
