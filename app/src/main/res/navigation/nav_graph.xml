@@ -1,6 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/navigation">
-
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.myapplication.fragment.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_seletion1Fragment"
+            app:destination="@id/seletion1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/seletion1Fragment"
+        android:name="com.example.myapplication.fragment.Seletion1Fragment"
+        android:label="fragment_seletion1"
+        tools:layout="@layout/fragment_seletion1" >
+        <action
+            android:id="@+id/action_seletion1Fragment_to_seletion2Fragment"
+            app:destination="@id/seletion2Fragment" />
+        <action
+            android:id="@+id/action_seletion1Fragment_to_seletion3Fragment"
+            app:destination="@id/seletion3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/seletion2Fragment"
+        android:name="com.example.myapplication.fragment.Seletion2Fragment"
+        android:label="fragment_seletion2"
+        tools:layout="@layout/fragment_seletion2" >
+        <action
+            android:id="@+id/action_seletion2Fragment_to_seletion3Fragment"
+            app:destination="@id/seletion3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/seletion3Fragment"
+        android:name="com.example.myapplication.fragment.Seletion3Fragment"
+        android:label="fragment_seletion3"
+        tools:layout="@layout/fragment_seletion3" >
+        <action
+            android:id="@+id/action_seletion3Fragment_to_seletion4Fragment"
+            app:destination="@id/seletion4Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/seletion4Fragment"
+        android:name="com.example.myapplication.fragment.Seletion4Fragment"
+        android:label="fragment_seletion4"
+        tools:layout="@layout/fragment_seletion4" >
+        <action
+            android:id="@+id/action_seletion4Fragment_to_result1Fragment"
+            app:destination="@id/result1Fragment" />
+        <action
+            android:id="@+id/action_seletion4Fragment_to_seletion5Fragment"
+            app:destination="@id/seletion5Fragment" />
+        <action
+            android:id="@+id/action_seletion4Fragment_to_seletion7Fragment"
+            app:destination="@id/seletion7Fragment" />
+        <action
+            android:id="@+id/action_seletion4Fragment_to_seletion6Fragment"
+            app:destination="@id/seletion6Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/result1Fragment"
+        android:name="com.example.myapplication.fragment.Result1Fragment"
+        android:label="fragment_result1"
+        tools:layout="@layout/fragment_result1" />
+    <fragment
+        android:id="@+id/seletion5Fragment"
+        android:name="com.example.myapplication.fragment.Seletion5Fragment"
+        android:label="fragment_seletion5"
+        tools:layout="@layout/fragment_seletion5" >
+        <action
+            android:id="@+id/action_seletion5Fragment_to_seletion6Fragment"
+            app:destination="@id/seletion6Fragment" />
+        <action
+            android:id="@+id/action_seletion5Fragment_to_seletion7Fragment"
+            app:destination="@id/seletion7Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/seletion7Fragment"
+        android:name="com.example.myapplication.fragment.Seletion7Fragment"
+        android:label="fragment_seletion7"
+        tools:layout="@layout/fragment_seletion7" >
+        <action
+            android:id="@+id/action_seletion7Fragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+        <action
+            android:id="@+id/action_seletion7Fragment_to_result3Fragment"
+            app:destination="@id/result3Fragment" />
+        <action
+            android:id="@+id/action_seletion7Fragment_to_result3Fragment2"
+            app:destination="@id/result3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/seletion6Fragment"
+        android:name="com.example.myapplication.fragment.Seletion6Fragment"
+        android:label="fragment_seletion6"
+        tools:layout="@layout/fragment_seletion6" >
+        <action
+            android:id="@+id/action_seletion6Fragment_to_seletion7Fragment"
+            app:destination="@id/seletion7Fragment" />
+        <action
+            android:id="@+id/action_seletion6Fragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+        <action
+            android:id="@+id/action_seletion6Fragment_to_result1Fragment"
+            app:destination="@id/result1Fragment" />
+        <action
+            android:id="@+id/action_seletion6Fragment_to_result4Fragment2"
+            app:destination="@id/result4Fragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.example.myapplication.fragment.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" />
+    <fragment
+        android:id="@+id/result3Fragment"
+        android:name="com.example.myapplication.fragment.Result3Fragment"
+        android:label="fragment_result3"
+        tools:layout="@layout/fragment_result3" />
+    <fragment
+        android:id="@+id/result4Fragment2"
+        android:name="com.example.myapplication.fragment.Result4Fragment"
+        android:label="fragment_result4"
+        tools:layout="@layout/fragment_result4" />
 </navigation>

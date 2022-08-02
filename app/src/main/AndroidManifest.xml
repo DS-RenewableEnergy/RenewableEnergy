@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".MainStartActivity"
+            android:exported="false" />
+        <activity
             android:name=".SubActivity5For3"
             android:exported="false" />
         <activity
