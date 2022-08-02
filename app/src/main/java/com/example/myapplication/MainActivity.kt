@@ -3,6 +3,7 @@ package com.example.myapplication
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import com.example.myapplication.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -24,6 +25,7 @@ class MainActivity : AppCompatActivity() {
         binding.btn4.setOnClickListener {
             val intent = Intent(this, SubActivity4::class.java)
             startActivity(intent)
+            Log.d("btn4","button 실행 완료")
         }
     }
 }
